@@ -1,4 +1,4 @@
-package com.example.bsecure
+package com.mawar.bsecure
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.bsecure.ui.theme
+package com.mawar.bsecure.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

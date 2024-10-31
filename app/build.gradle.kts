@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.bsecure"
+    namespace = "com.mawar.bsecure"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.bsecure"
+        applicationId = "com.mawar.bsecure"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
