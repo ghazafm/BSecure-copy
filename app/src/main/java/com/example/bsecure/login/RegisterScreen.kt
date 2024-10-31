@@ -59,7 +59,7 @@ fun RegisterScreen() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Icon(
-                painter = painterResource(id = R.drawable.bsecure),
+                painter = painterResource(id = R.drawable.bsecure1),
                 contentDescription = "Bsecure",
                 tint = Color.Unspecified,
                 modifier = Modifier

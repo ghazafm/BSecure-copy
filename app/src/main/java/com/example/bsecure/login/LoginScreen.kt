@@ -53,7 +53,7 @@ fun LoginScreen() {
         ) {
 
             Icon(
-                painter = painterResource(id = R.drawable.bsecure),
+                painter = painterResource(id = R.drawable.bsecure1),
                 contentDescription = "Facebook",
                 tint = Color.Unspecified, // This prevents any tint from being applied
                 modifier = Modifier
