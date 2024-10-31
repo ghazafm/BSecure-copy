@@ -1,6 +1,7 @@
 package com.example.bsecure.login
 
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -31,7 +32,7 @@ fun LoginScreen() {
         modifier = Modifier
             .fillMaxSize()
             .background(Color(0xFF5A2D82)) // Background color for the top part
-            .padding(top = 40.dp),
+            .padding(top = 0.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 
@@ -42,7 +43,7 @@ fun LoginScreen() {
             fontWeight = FontWeight.Bold
         )
 
-        Spacer(modifier = Modifier.height(30.dp))
+        Spacer(modifier = Modifier.height(100.dp))
 
         Column(
             modifier = Modifier
@@ -51,15 +52,16 @@ fun LoginScreen() {
                 .padding(horizontal = 32.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Spacer(modifier = Modifier.height(24.dp))
 
-            Icon(
+            Image(
                 painter = painterResource(id = R.drawable.bsecure1),
                 contentDescription = "Facebook",
-                tint = Color.Unspecified, // This prevents any tint from being applied
                 modifier = Modifier
-                    .size(200.dp)
-                    .clickable { /* Handle Facebook sign-in */ }
+                    .fillMaxWidth()
+                    .size(80.dp)
             )
+
             Spacer(modifier = Modifier.height(20.dp))
 
             OutlinedTextField(
